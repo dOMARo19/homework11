@@ -68,12 +68,12 @@ a {
     margin-bottom: 136px;
 }
 
-.navbar-list {
+.navbar__list {
     display: flex;
     gap: var(--gap-lg);
 }
 
-.navbar-item {}
+.navbar__item {}
 
 .navbar__link {
     display: block;
