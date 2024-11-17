@@ -179,3 +179,17 @@ a {
 .footer__copyright {
     font-size: 0.8125rem;
 }
+
+@media (min-width: 375px) {
+    .header {
+        font-size: 28px; /* Збільшуємо шрифт заголовку на екранах від 375px */
+    }
+
+    .container {
+        padding: 30px; /* Більші відступи */
+    }
+
+    .content {
+        margin-top: 40px; /* Збільшуємо відступ для контенту */
+    }
+}
