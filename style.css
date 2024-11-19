@@ -70,6 +70,7 @@ a {
 
 .navbar__list {
     display: flex;
+    flex-wrap: wrap;
     gap: var(--gap-lg);
 }
 
@@ -180,16 +181,16 @@ a {
     font-size: 0.8125rem;
 }
 
-@media (min-width: 375px) {
+/* @media (min-width: 375px) {
     .header {
-        font-size: 28px; /* Збільшуємо шрифт заголовку на екранах від 375px */
+        font-size: 28px; 
     }
 
     .container {
-        padding: 30px; /* Більші відступи */
+        padding: 30px; 
     }
 
     .content {
-        margin-top: 40px; /* Збільшуємо відступ для контенту */
+        margin-top: 40px; 
     }
-}
+} */
