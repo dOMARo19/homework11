@@ -181,11 +181,7 @@ a {
     font-size: 0.8125rem;
 }
 
-/* @media (min-width: 375px) {
-    .header {
-        font-size: 28px; 
-    }
-
+@media (min-width: 375px) {
     .container {
         padding: 30px; 
     }
@@ -193,4 +189,4 @@ a {
     .content {
         margin-top: 40px; 
     }
-} */
+} 
