@@ -84,7 +84,7 @@ a {
   gap: var(--gap-lg);
 }
 
-.navbar__item {}
+/* .navbar__item {} */
 
 .navbar__link {
   display: block;
