@@ -73,13 +73,18 @@ a {
 
 .navbar {
   margin-bottom: 136px;
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap-lg);
+  }
 }
 
-.navbar__list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--gap-lg);
-}
+// .navbar-list {
+//   display: flex;
+//   flex-wrap: wrap;
+//   gap: var(--gap-lg);
+// }
 
 .navbar__item {}
 
