@@ -1,5 +1,5 @@
 @import 'normalize';
-@import 'variebles';
+@import 'variables';
 @import 'typography';
 @import 'classes';
 @import 'header';
@@ -8,13 +8,4 @@
 @import 'process';
 @import 'video';
 @import 'footer';
-
-@media (min-width: 375px) {
-  .container {
-      padding: 30px; 
-  }
-
-  .content {
-      margin-top: 40px; 
-  }
-} 
+@import 'media';
