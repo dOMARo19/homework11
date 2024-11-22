@@ -1,0 +1,14 @@
+@mixin section {
+    padding-top: 6.5625rem;
+    padding-bottom: 5.75rem;
+    &__title {
+      font-size: 32px;
+      text-align: center;
+      font-weight: 500;
+      margin-bottom: 2rem;
+    }
+    &__description {
+      color: $color-secondary;
+      text-align: center;
+    }
+  }
